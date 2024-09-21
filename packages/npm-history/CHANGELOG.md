@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.1.9](https://github.com/MichailShcherbakov/reatom/compare/npm-history-v3.1.8...npm-history-v3.1.9) (2024-09-21)
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.1.8](https://github.com/artalar/reatom/compare/npm-history-v3.1.7...npm-history-v3.1.8) (2024-06-22)
 
 

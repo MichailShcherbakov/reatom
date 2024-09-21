@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.4.0](https://github.com/MichailShcherbakov/reatom/compare/devtools-v0.3.0...devtools-v0.4.0) (2024-09-21)
+
+
+### Features
+
+* **devtools:** init ([7c38d65](https://github.com/MichailShcherbakov/reatom/commit/7c38d65ea8b0a76589dec7423c17a63b7822fa9e))
+* **devtools:** support separator function ([563ce6e](https://github.com/MichailShcherbakov/reatom/commit/563ce6effc0f3ccd7dfe925ebab10a846e3df2b9))
+
+
+### Bug Fixes
+
+* **devtools:** styles ([e0b9cf8](https://github.com/MichailShcherbakov/reatom/commit/e0b9cf8f3d781676cd4bed8266896f24ee06b9ca))
+* **devtools:** styles and logs improvements ([5e6428a](https://github.com/MichailShcherbakov/reatom/commit/5e6428a79dfcfd8b07d1ad892b8d4153f651cf7d))
+* **devtools:** types declarations ([e98e758](https://github.com/MichailShcherbakov/reatom/commit/e98e7583cc86b4f7019ccf182843ca12023f5174))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [0.3.0](https://github.com/artalar/reatom/compare/devtools-v0.2.2...devtools-v0.3.0) (2024-06-26)
 
 

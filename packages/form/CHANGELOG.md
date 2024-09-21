@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.4.0](https://github.com/MichailShcherbakov/reatom/compare/form-v3.3.2...form-v3.4.0) (2024-09-21)
+
+
+### Features
+
+* **form:** correct "valid" behavior ([a47f1f2](https://github.com/MichailShcherbakov/reatom/commit/a47f1f2c99fb2f45ab900721ef3806dc47961916))
+* **form:** improve form validation and field value handling ([cf0e297](https://github.com/MichailShcherbakov/reatom/commit/cf0e297e674e1e481fe877477a0f1bb3a4c1d6c8))
+* **form:** many docs, small refactoring ([2c2952b](https://github.com/MichailShcherbakov/reatom/commit/2c2952b583701cbaa56f9786b6548cde8b069d13))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **form:** touched behavior ([caaedd1](https://github.com/MichailShcherbakov/reatom/commit/caaedd11fa5b938731e298c2b6ee484408b91eb5))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.3.2](https://github.com/artalar/reatom/compare/form-v3.3.1...form-v3.3.2) (2024-06-22)
 
 

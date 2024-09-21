@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.5.0](https://github.com/MichailShcherbakov/reatom/compare/persist-v3.4.0...persist-v3.5.0) (2024-09-21)
+
+
+### Features
+
+* **persist:** add __persistRecordAtom ([89d6e6f](https://github.com/MichailShcherbakov/reatom/commit/89d6e6f98587c45bc5c77f241298ffd16f340489))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+* **persist:** rm extra cache for transactions ([5efcd57](https://github.com/MichailShcherbakov/reatom/commit/5efcd5746e9e208e46b0b6b6692b823d950bc1b6))
+* **persist:** snapshotAtom init state [#885](https://github.com/MichailShcherbakov/reatom/issues/885) ([209613f](https://github.com/MichailShcherbakov/reatom/commit/209613f425ee06e5cd81ebddb84b25accb1c5861))
+
 ## [3.4.0](https://github.com/artalar/reatom/compare/persist-v3.3.4...persist-v3.4.0) (2024-09-18)
 
 

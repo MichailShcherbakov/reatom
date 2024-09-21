@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.11.0](https://github.com/MichailShcherbakov/reatom/compare/utils-v3.10.0...utils-v3.11.0) (2024-09-21)
+
+
+### Features
+
+* **jsx:** nested atoms, better types ([#652](https://github.com/MichailShcherbakov/reatom/issues/652)) ([3ceae78](https://github.com/MichailShcherbakov/reatom/commit/3ceae788da52ff40a561ce5b2fc5371475fb7d7c))
+* **lens:** add match ([#646](https://github.com/MichailShcherbakov/reatom/issues/646)) ([0f2a768](https://github.com/MichailShcherbakov/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+* **lens:** add match().with ([f61dddc](https://github.com/MichailShcherbakov/reatom/commit/f61dddc858fda9921117acd472cc4e4e71cdd47e))
+* **utils:** add isRec ([444c4f6](https://github.com/MichailShcherbakov/reatom/commit/444c4f6c528092a59bdd332218b3d42c88351999))
+* **utils:** add setTimeout ([b979284](https://github.com/MichailShcherbakov/reatom/commit/b9792842c45409da53448272d593a327ab306b0c))
+* **utils:** add throwAbort ([a991be1](https://github.com/MichailShcherbakov/reatom/commit/a991be1153c8b1c3c929a7eabcc9328e022b8eff))
+* **utils:** add typed keys and entries ([ed3c205](https://github.com/MichailShcherbakov/reatom/commit/ed3c205259d39cea018938c2b14794dbfd994c00))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.10.0](https://github.com/artalar/reatom/compare/utils-v3.9.2...utils-v3.10.0) (2024-08-19)
 
 

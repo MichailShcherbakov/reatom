@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.8.0](https://github.com/MichailShcherbakov/reatom/compare/primitives-v3.7.3...primitives-v3.8.0) (2024-09-21)
+
+
+### Features
+
+* **primitives:** add getOrCreate to reatomMap ([a6f9d48](https://github.com/MichailShcherbakov/reatom/commit/a6f9d4843e7e983d1a37b0c3a85214642a4d0925))
+* **primitives:** add map atom to LinkedListAtom ([fc58024](https://github.com/MichailShcherbakov/reatom/commit/fc580241e3867040a4513690a6b976d39f3ac6c0))
+* **primitives:** add new set methods and tests for reatomSet ([#866](https://github.com/MichailShcherbakov/reatom/issues/866)) ([a8ae20f](https://github.com/MichailShcherbakov/reatom/commit/a8ae20f9abe8adbde4e4c44247578a00b227e5e3))
+* **primitives:** add reatomLinkedList ([0987d83](https://github.com/MichailShcherbakov/reatom/commit/0987d83df0aec36996ce16a8890012773358c7ac))
+* **primitives:** add withAssign, deprecate withReducers ([3ac66fc](https://github.com/MichailShcherbakov/reatom/commit/3ac66fc76fffa4ef05e9782d93c982020188196f))
+* **primitives:** add withComputed ([055a5a7](https://github.com/MichailShcherbakov/reatom/commit/055a5a72524a5ce147ebbb1d7cbb4af7c9d88ca3))
+
+
+### Bug Fixes
+
+* add the 'size' prop to reatomSet ([61a575a](https://github.com/MichailShcherbakov/reatom/commit/61a575af4cc3d18d3575c1779aa6008b062e5c1a))
+* add the 'size' prop to reatomSet ([#892](https://github.com/MichailShcherbakov/reatom/issues/892)) ([76d9a98](https://github.com/MichailShcherbakov/reatom/commit/76d9a986e2e897119a3708a117cc849ccd65f234))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+* **primitives:** linked list batch ([1fd859c](https://github.com/MichailShcherbakov/reatom/commit/1fd859c7309e4e398a578a1b278fdded434c026b))
+* **primitives:** remove in ll ([e78a049](https://github.com/MichailShcherbakov/reatom/commit/e78a049faf52e6924f74acc2907d16701517423c))
+* **primitives:** swap in ll ([315df22](https://github.com/MichailShcherbakov/reatom/commit/315df224f9a17203905e7a10f5f0082812415244))
+
 ## [3.7.3](https://github.com/artalar/reatom/compare/primitives-v3.7.2...primitives-v3.7.3) (2024-08-19)
 
 

@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.12.0](https://github.com/MichailShcherbakov/reatom/compare/lens-v3.11.4...lens-v3.12.0) (2024-09-21)
+
+
+### Features
+
+* **jsx:** nested atoms, better types ([#652](https://github.com/MichailShcherbakov/reatom/issues/652)) ([3ceae78](https://github.com/MichailShcherbakov/reatom/commit/3ceae788da52ff40a561ce5b2fc5371475fb7d7c))
+* **lens:** add match ([#646](https://github.com/MichailShcherbakov/reatom/issues/646)) ([0f2a768](https://github.com/MichailShcherbakov/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+* **lens:** add match().with ([f61dddc](https://github.com/MichailShcherbakov/reatom/commit/f61dddc858fda9921117acd472cc4e4e71cdd47e))
+* **lens:** add select api ([f39f1dd](https://github.com/MichailShcherbakov/reatom/commit/f39f1dd5434462f8466c892342dd8b6c29d70162))
+* **lens:** allow to call select multiple times ([6ea0223](https://github.com/MichailShcherbakov/reatom/commit/6ea022382ace846f5bb15abdf41bc35783764555))
+* **lens:** support linked list in parseAtoms ([534d745](https://github.com/MichailShcherbakov/reatom/commit/534d74583af3890fe9ac18baf08b11c25dd1f957))
+* **match:** api redesign (it isn't published yet) ([0e9554e](https://github.com/MichailShcherbakov/reatom/commit/0e9554e8e493b70912f6efd23c69731cfa60ebb8))
+* **match:** remove equal method ([c1d077c](https://github.com/MichailShcherbakov/reatom/commit/c1d077c99944116a301f0cc0c24aade6a27e7351))
+* **utils:** add isRec ([444c4f6](https://github.com/MichailShcherbakov/reatom/commit/444c4f6c528092a59bdd332218b3d42c88351999))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **lens:** better matched expression type ([#914](https://github.com/MichailShcherbakov/reatom/issues/914)) ([2ea51cd](https://github.com/MichailShcherbakov/reatom/commit/2ea51cd509760fa8ecb6530dc51c602a93e08a13))
+* **lens:** do not perform actions in parseAtoms ([cff48d0](https://github.com/MichailShcherbakov/reatom/commit/cff48d060ae2a6a0afab4612353bac1926f39c21))
+* **lens:** dont allow non-recs as match.with input ([#675](https://github.com/MichailShcherbakov/reatom/issues/675)) ([3c6e8bc](https://github.com/MichailShcherbakov/reatom/commit/3c6e8bc1425cb0c5a6fbde4d78f81c1ab15c7cf9))
+* **lens:** match ctx instead of cause in select ([3f1fd8e](https://github.com/MichailShcherbakov/reatom/commit/3f1fd8e21d457cc9f78d2a71ef9f8caa585fcf99))
+* **lens:** match default case ([27061af](https://github.com/MichailShcherbakov/reatom/commit/27061af1ac338f5223190d110cf6e090d884e203))
+* **lens:** select equal callback ([ce87fbf](https://github.com/MichailShcherbakov/reatom/commit/ce87fbfd0e7ef953e6c5156645c0aac77b20a952))
+* **lens:** select export ([fd776cf](https://github.com/MichailShcherbakov/reatom/commit/fd776cf6a5ca36beb9e3581315abb8afe7ca2050))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.11.4](https://github.com/artalar/reatom/compare/lens-v3.11.3...lens-v3.11.4) (2024-09-06)
 
 

@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.17.0](https://github.com/MichailShcherbakov/reatom/compare/async-v3.16.1...async-v3.17.0) (2024-09-21)
+
+
+### Features
+
+* **async:** add initState to errorAtom ([6852b72](https://github.com/MichailShcherbakov/reatom/commit/6852b7291ccc4fb6acfb9ecfb48d3c2326fa78ee))
+* **async:** add reset action to statusesAtom ([7803168](https://github.com/MichailShcherbakov/reatom/commit/78031689792d7737641fc822324dbe482c4a8fec))
+* **async:** add shouldPending and swrPendingAtom ([103e30c](https://github.com/MichailShcherbakov/reatom/commit/103e30c7aa8bd7879da347d2653389a39221d952))
+* **async:** add to cache setWithParams and deleteWithParams [#796](https://github.com/MichailShcherbakov/reatom/issues/796) ([b53fe98](https://github.com/MichailShcherbakov/reatom/commit/b53fe98b37e178735240b274336c29de6e3be1c5))
+* **async:** deprecate reatomAsyncReaction in favor of reatomReactiveAsync ([678adf2](https://github.com/MichailShcherbakov/reatom/commit/678adf2b337b6a895f94e5997739274822332c4f))
+* **async:** reset for resource ([852ba1e](https://github.com/MichailShcherbakov/reatom/commit/852ba1e3a327ce7114f7c6f4cb13ae233e82a05b))
+* **primitives:** add withAssign, deprecate withReducers ([3ac66fc](https://github.com/MichailShcherbakov/reatom/commit/3ac66fc76fffa4ef05e9782d93c982020188196f))
+
+
+### Bug Fixes
+
+* **async:** abort should not stale for reatomAsyncReaction ([2a7e272](https://github.com/MichailShcherbakov/reatom/commit/2a7e2720bb5e8a681128eac161535e350fc04c59))
+* **async:** activate resource on pending connection ([81f19b9](https://github.com/MichailShcherbakov/reatom/commit/81f19b996c0a2535b2c9056dd4197f447620604f))
+* **async:** add AsyncStatusesAbortedSettle ([bd03669](https://github.com/MichailShcherbakov/reatom/commit/bd03669bfa1814e1ce4cd28387c8de70a5d0b4d7))
+* **async:** add AsyncStatusesFirstAborted and AsyncStatusesAbortedPending ([f653bb2](https://github.com/MichailShcherbakov/reatom/commit/f653bb2cd2a07eef9c062aa9477de91b06716e69))
+* **async:** allow empty deps for reatomResource ([47c9a2e](https://github.com/MichailShcherbakov/reatom/commit/47c9a2e4350522ca39af3c5c4cf848a1ad5f967a))
+* **async:** allow optional resetTrigger for withErrorAtom ([185f99d](https://github.com/MichailShcherbakov/reatom/commit/185f99db81541ad72c18b5360517a89a08386807))
+* **async:** change type of dataAtom in withDataAtom operator without initState ([#785](https://github.com/MichailShcherbakov/reatom/issues/785)) ([ecf44a6](https://github.com/MichailShcherbakov/reatom/commit/ecf44a6039e3217cb2d45c465564a67bd21f095c))
+* **async:** dataAtom should be computed first ([8aab299](https://github.com/MichailShcherbakov/reatom/commit/8aab299916f35afc0cb89983c58eeb4ae5b237cb))
+* **async:** do not cache aborted promise ([1b6fbe8](https://github.com/MichailShcherbakov/reatom/commit/1b6fbe83ae10a0b170996a16c272a1783d77cb39))
+* **async:** drop retriesAtom if onReject returns undefined ([77e71b3](https://github.com/MichailShcherbakov/reatom/commit/77e71b3cafe79732a5611d4983778ed90d95f69e))
+* **async:** errorAtom: AtomMut ([a1349a8](https://github.com/MichailShcherbakov/reatom/commit/a1349a8118366a75d4cb9bf40d6e94274a2a87f2))
+* **async:** first-in-win pending ([15c6d75](https://github.com/MichailShcherbakov/reatom/commit/15c6d75d57d8d25a623181e38ac4812bf1cd3d24))
+* **async:** ignore abort in resource if a subscribers exists ([67bfdad](https://github.com/MichailShcherbakov/reatom/commit/67bfdad05ddc7852bb781f811a39107296662154))
+* **async:** improve withStatusesAtom update order ([316bac5](https://github.com/MichailShcherbakov/reatom/commit/316bac55d18cdd24c743e3e6e6eb5645b2ebf5c6))
+* **async:** more mem safety for abortCauseContext ([aa5e29f](https://github.com/MichailShcherbakov/reatom/commit/aa5e29f17d250a20a10476cb2054897feda43628))
+* **async:** prevent ERR_UNHANDLED_REJECTION if the onReject has any handlers ([c66ad56](https://github.com/MichailShcherbakov/reatom/commit/c66ad56e9b4cd536fda93e9cf0cc4a4b862abf91))
+* **async:** prevent unhandled error for abort ([8c64522](https://github.com/MichailShcherbakov/reatom/commit/8c64522bed4d13b35a9f7f354ef6b086b5fbda98))
+* **async:** prevent unhandled exception for reatomAsyncReaction ([4b940ae](https://github.com/MichailShcherbakov/reatom/commit/4b940aee188ccfcb66a137834f5b877b24321e00))
+* **async:** reatomAsyncReaction direct call ([e88b96c](https://github.com/MichailShcherbakov/reatom/commit/e88b96cadfe40ff25432d6bb5d69cbbc20ce67f8))
+* **async:** reatomResource small mem leak ([408d916](https://github.com/MichailShcherbakov/reatom/commit/408d9167712cf53dc4381caee3c08f353752d990))
+* **async:** reatomResource: do not drop the cache of an error ([75f54e6](https://github.com/MichailShcherbakov/reatom/commit/75f54e6fe8ab5a46d20846656d908c0779551e81))
+* **async:** retry abort ([7722626](https://github.com/MichailShcherbakov/reatom/commit/7722626effd408f81a6a1864ce12faa43a617581))
+* **async:** use abortCauseContext ([6133f27](https://github.com/MichailShcherbakov/reatom/commit/6133f275d4cb3529fd744558324e38a621cb66a4))
+* **async:** use setTimeout with toJSON ([8c2ed7b](https://github.com/MichailShcherbakov/reatom/commit/8c2ed7b2f5f52da6fbc1993b1253043928961f1d))
+* **async:** withAbort + reatomResource ([47d81f7](https://github.com/MichailShcherbakov/reatom/commit/47d81f7aed563720692c4ecbf627d701e4cafe29))
+* **async:** withAbort + withRetry ([d5190ab](https://github.com/MichailShcherbakov/reatom/commit/d5190ab87d57e3925652e07c0741c2938b80cd39))
+* **async:** withAbort strategy first-in-win ([#898](https://github.com/MichailShcherbakov/reatom/issues/898)) ([0875cbb](https://github.com/MichailShcherbakov/reatom/commit/0875cbb79d64551d09051bbc6e39c41ef4b4af85))
+* **async:** withErrorAtom should be computed first ([0c458da](https://github.com/MichailShcherbakov/reatom/commit/0c458da9f1eaf6a3226ca2e57f8ba5360dc7ce9e))
+* **async:** withRetry races ([0abe299](https://github.com/MichailShcherbakov/reatom/commit/0abe29976c319525544efd5fd659e004b76d6edf))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.16.1](https://github.com/artalar/reatom/compare/async-v3.16.0...async-v3.16.1) (2024-09-06)
 
 
