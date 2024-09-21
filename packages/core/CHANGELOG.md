@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.10.0](https://github.com/MichailShcherbakov/reatom/compare/core-v3.9.0...core-v3.10.0) (2024-09-21)
+
+
+### Features
+
+* **core:** add batch method ([2e082b6](https://github.com/MichailShcherbakov/reatom/commit/2e082b6296d933ca24046f60ad31b11098027af2))
+* **core:** add experimental_PLUGINS ([334759c](https://github.com/MichailShcherbakov/reatom/commit/334759c1e20487545a1276f18c14812a1a080fbe))
+* **core:** add restrictMultipleContexts option and warning ([99e0e3c](https://github.com/MichailShcherbakov/reatom/commit/99e0e3c723a529effc43f0e2a4908806064d30af))
+* **lens:** add match ([#646](https://github.com/MichailShcherbakov/reatom/issues/646)) ([0f2a768](https://github.com/MichailShcherbakov/reatom/commit/0f2a7685dd797cac4c9fc882a8e24bc31f9503a6))
+
+
+### Bug Fixes
+
+* **core:** actualization of unsusbscribed atom ([e388afb](https://github.com/MichailShcherbakov/reatom/commit/e388afbbd120aa8fd9aeb3943cb55691e2930f24))
+* **core:** conditional deps duplication ([c8968a9](https://github.com/MichailShcherbakov/reatom/commit/c8968a9a98f0554f1164b5857a78910cf61f1da4))
+* **core:** hide spy for updateHooks ([344d2ce](https://github.com/MichailShcherbakov/reatom/commit/344d2ce10676f49999c8c3fb973109e1ac42c57c))
+* **core:** nested schedule ([61b3822](https://github.com/MichailShcherbakov/reatom/commit/61b38225b8f7de8eefd7f8f7f6ec079d1ef6de84))
+* **core:** prev value of spy callback ([0abdec0](https://github.com/MichailShcherbakov/reatom/commit/0abdec08c50de9c6622e71b67a4f063aaa9f9343))
+* **core:** reduce mem usage a little bit ([53c101d](https://github.com/MichailShcherbakov/reatom/commit/53c101de190137a078c18900711dd159373635b5))
+* **core:** remove extra computation ([6e3d86d](https://github.com/MichailShcherbakov/reatom/commit/6e3d86dc9d8de9dd78a9c10ce4cb3a899e407093))
+* **core:** small mem improvement ([fd24970](https://github.com/MichailShcherbakov/reatom/commit/fd249701d4f527460443a8cf651d33b3bf153cb4))
+* **docs:** fixed links to Reatom handbook ([#855](https://github.com/MichailShcherbakov/reatom/issues/855)) ([c9e6a56](https://github.com/MichailShcherbakov/reatom/commit/c9e6a56201c9a496664cd9409fe0fa5dff67606e))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.9.0](https://github.com/artalar/reatom/compare/core-v3.8.3...core-v3.9.0) (2024-07-16)
 
 

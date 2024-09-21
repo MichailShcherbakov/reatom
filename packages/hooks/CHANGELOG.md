@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.6.0](https://github.com/MichailShcherbakov/reatom/compare/hooks-v3.5.5...hooks-v3.6.0) (2024-09-21)
+
+
+### Features
+
+* **hooks:** add isInit method ([5138685](https://github.com/MichailShcherbakov/reatom/commit/51386857231c036534596df0bd63b6240a30454a))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **hooks:** correct isInit behaviour ([#775](https://github.com/MichailShcherbakov/reatom/issues/775)) ([f61d4ac](https://github.com/MichailShcherbakov/reatom/commit/f61d4acbe5603628f18c84f1ef6b3d869ec83b71))
+* **hooks:** do not change onConnect promise caught behavior ([3754d73](https://github.com/MichailShcherbakov/reatom/commit/3754d73a8c312ef300b8569dc1d415fa7a462488))
+* **hooks:** improve isInit perf ([be6a829](https://github.com/MichailShcherbakov/reatom/commit/be6a82984f798fd63786bace9a324bdf3d8ff3c6))
+* **hooks:** use abortCauseContext ([dcb437c](https://github.com/MichailShcherbakov/reatom/commit/dcb437c44ef4346df73f4cc94c90d132fe09edc0))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.5.5](https://github.com/artalar/reatom/compare/hooks-v3.5.4...hooks-v3.5.5) (2024-06-22)
 
 

@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.8.0](https://github.com/MichailShcherbakov/reatom/compare/eslint-plugin-v3.7.0...eslint-plugin-v3.8.0) (2024-09-21)
+
+
+### Features
+
+* **eslint-plugin:** add async-rule & unit-naming-rule ([#709](https://github.com/MichailShcherbakov/reatom/issues/709)) ([04de10c](https://github.com/MichailShcherbakov/reatom/commit/04de10cb9bd3d39d2deec3ed1a5e0aface9de3c9))
+* **eslint-plugin:** complete unit-naming-rule ([#523](https://github.com/MichailShcherbakov/reatom/issues/523)) ([#920](https://github.com/MichailShcherbakov/reatom/issues/920)) ([590ebbf](https://github.com/MichailShcherbakov/reatom/commit/590ebbf4fe14c649304b77b7815766779c19a078))
+* **eslint-plugin:** enforce domain in names ([#764](https://github.com/MichailShcherbakov/reatom/issues/764)) ([0b4ccff](https://github.com/MichailShcherbakov/reatom/commit/0b4ccffa80fa738233f2160fc9b3a70269c6d4d5))
+
+
+### Bug Fixes
+
+* **eslint-plugin:** allow any template literal ([#661](https://github.com/MichailShcherbakov/reatom/issues/661)) ([5539cdd](https://github.com/MichailShcherbakov/reatom/commit/5539cddb5628de56f7e7f011c41ec4230d7a4ae5))
+* **eslint-plugin:** allow explicit empty atomPostfix ([7bac17f](https://github.com/MichailShcherbakov/reatom/commit/7bac17f83350349b8e428688a1aceb16cfefbe11))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **lens:** match default case ([27061af](https://github.com/MichailShcherbakov/reatom/commit/27061af1ac338f5223190d110cf6e090d884e203))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.7.0](https://github.com/artalar/reatom/compare/eslint-plugin-v3.6.2...eslint-plugin-v3.7.0) (2024-09-12)
 
 

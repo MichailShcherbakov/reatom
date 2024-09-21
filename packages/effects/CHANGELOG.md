@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.10.0](https://github.com/MichailShcherbakov/reatom/compare/effects-v3.9.0...effects-v3.10.0) (2024-09-21)
+
+
+### Features
+
+* **effects:** add abortCauseContext ([af28718](https://github.com/MichailShcherbakov/reatom/commit/af28718598a852ba7926e54cd5f1b6a508441951))
+* **effects:** add concurrent ([21b824b](https://github.com/MichailShcherbakov/reatom/commit/21b824b939bd6bd57b3d33d8eaa91ea67d784c41))
+* **effects:** add isInit method ([4a8aeb1](https://github.com/MichailShcherbakov/reatom/commit/4a8aeb14d0cdf54a545dda498c026e8f9b7c29d2))
+* **effects:** add reaction API ([4c9d589](https://github.com/MichailShcherbakov/reatom/commit/4c9d5892f733e04e575937133eca3ec51424759f))
+* **effects:** add spawn ([2eab5cb](https://github.com/MichailShcherbakov/reatom/commit/2eab5cbc6b26450b09ed43ad9cb815a997950c1d))
+* **effects:** concurrent strategies ([426aedc](https://github.com/MichailShcherbakov/reatom/commit/426aedcefb1b22bda21433a3dd04cb235d49af9d))
+* **effects:** skip mark for take filter ([c136bd8](https://github.com/MichailShcherbakov/reatom/commit/c136bd884df59715ea8a4028e29eaa3e1dc6b076))
+
+
+### Bug Fixes
+
+* **effects:** allow to use "concurrent" with CtxSpy ([4da1ab0](https://github.com/MichailShcherbakov/reatom/commit/4da1ab04ecbd1de66d783c2bad2da6671981905a))
+* **effects:** concurrent ctx types ([799485f](https://github.com/MichailShcherbakov/reatom/commit/799485fcf4aa9096b504cc52426cec74424e0515))
+* **effects:** concurrent nested aborts ([6cc5dc4](https://github.com/MichailShcherbakov/reatom/commit/6cc5dc45c8f6bb9e51c2fd76c7b6dda7352ce4c2))
+* **effects:** concurrent outdated abort handling ([23f177e](https://github.com/MichailShcherbakov/reatom/commit/23f177e804546a8d43530a4c0dc764c162737513))
+* **effects:** concurrent.abortControllerAtom name ([25bdc47](https://github.com/MichailShcherbakov/reatom/commit/25bdc479e62045f946aeee6b9e001a8cb3450a07))
+* **effects:** missed abort... ([66d2afd](https://github.com/MichailShcherbakov/reatom/commit/66d2afd9bb6cfc1ababdffb7b547b7cee3e9425b))
+* **effects:** more friendly typings for isCausedBy ([5d60c1d](https://github.com/MichailShcherbakov/reatom/commit/5d60c1da8710c90df60b24e5d013e829455260d0))
+* **effects:** prevent uncaught rejection for the abort of the concurrent API ([028bf10](https://github.com/MichailShcherbakov/reatom/commit/028bf10baa38bcd85d6ae7445c8294160b50ca07))
+* **effects:** prevent unhandled error for abort ([fe884e2](https://github.com/MichailShcherbakov/reatom/commit/fe884e24ac574fc50c7ce4e825459d7059136b73))
+* **effects:** withAbortableSchedule ([399d36f](https://github.com/MichailShcherbakov/reatom/commit/399d36ffb00d3597fa9c234358b8c50a6aeb8a7a))
+* **effects:** withAbortableSchedule sync abort ([ebede8d](https://github.com/MichailShcherbakov/reatom/commit/ebede8d8f652da58bf2e29d6b5ec58966199059b))
+* esm module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/MichailShcherbakov/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/MichailShcherbakov/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.9.0](https://github.com/artalar/reatom/compare/effects-v3.8.3...effects-v3.9.0) (2024-09-06)
 
 
